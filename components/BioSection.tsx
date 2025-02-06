@@ -6,7 +6,7 @@ export default function BioSection() {
       <h2 className="text-4xl font-semibold mb-12 text-center">About Me</h2>
 
       <motion.div
-        className="bg-white p-6 rounded-lg shadow-lg max-w-2xl w-full border border-gray-200" // Matches ProjectsSection styling
+        className="bg-white p-6 rounded-lg shadow-lg max-w-2xl w-full border border-gray-200" 
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
