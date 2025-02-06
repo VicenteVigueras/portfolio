@@ -1,9 +1,7 @@
 "use client"
 
-import { Suspense } from "react"
 import dynamic from "next/dynamic"
 import Header from "@/components/Header"
-import Loader from "@/components/Loader"
 import BioSection from "@/components/BioSection"
 import ProjectsSection from "@/components/ProjectsSection"
 import ExperienceSection from "@/components/ExperienceSection"
